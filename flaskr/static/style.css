@@ -139,6 +139,20 @@ h2 {
   margin-bottom: 1em;
 }
 
+.delete-entry {
+  margin-top: 0.8em;
+}
+
+.delete-entry input[type="submit"] {
+  background: var(--accent-color);
+  padding: 0.4em 0.8em;
+  font-size: 0.9em;
+}
+
+.delete-entry input[type="submit"]:hover {
+  background: #c0392b;
+}
+
 input[type="text"], 
 textarea {
   width: 100%;
